@@ -1,1 +1,0 @@
-# vinayvivekananda.github.io
