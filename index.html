@@ -1,12 +1,535 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 
    <head>
-      <meta http-equiv="refresh" content=" 0; url = https://vinayvivekananda.gitlab.io" />
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Vinay Vivekananda</title>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
+      <link rel="preload" as="style"
+         href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" />
+      <link rel="stylesheet"
+         href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"
+         media="print" onload="this.media='all'" />
+      <noscript>
+         <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" />
+      </noscript>
+      <link href="css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
+      <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
+      <link href="css/aos.css?ver=1.2.0" rel="stylesheet">
+      <link href="css/main.css?ver=1.2.0" rel="stylesheet">
+      <noscript>
+         <style type="text/css">
+            [data-aos] {
+               opacity: 1 !important;
+               transform: translate(0) scale(1) !important;
+            }
+
+         </style>
+      </noscript>
    </head>
 
-   <body>
-      Redirecting to <a href="https://vinayvivekananda.gitlab.io">https://vinayvivekananda.gitlab.io</a>
+   <body id="top">
+      <header class="d-print-none">
+         <div class="container text-center text-lg-left">
+            <div class="py-3 clearfix">
+               <h1 class="site-title mb-0">Vinay Vivekananda</h1>
+               <div class="site-nav">
+                  <nav role="navigation">
+                     <ul class="nav justify-content-center">
+                        <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/vinayvivekananda"
+                              target="_blank"
+                              title="Linkedin"><i class="fab fa-linkedin"></i><span
+                                 class="menu-title sr-only">LinkedIn</span></a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="https://github.com/vinayvivekananda"
+                              target="_blank"
+                              title="Github"><i class="fab fa-github"></i><span
+                                 class="menu-title sr-only">Github</span></a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="https://gitlab.com/vinayvivekananda"
+                              target="_blank"
+                              title="Gitlab"><i class="fab fa-gitlab"></i><span
+                                 class="menu-title sr-only">Gitlab</span></a>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </header>
+      <div class="page-content">
+         <div class="container">
+            <div class="cover shadow-lg bg-white">
+               <div class="cover-bg p-3 p-lg-4 text-white">
+                  <div class="row">
+                     <div class="col-lg-4 col-md-5">
+                        <div class="avatar hover-effect bg-white shadow-sm p-1"><img src="images/avatar.jpg" width="200"
+                              height="200" /></div>
+                     </div>
+                     <div class="col-lg-8 col-md-7 text-center text-md-start">
+                        <h2 class="h1 mt-2" data-aos="fade-left" data-aos-delay="0">Vinay Vivekananda</h2>
+                        <p data-aos="fade-left" data-aos-delay="100">Full-Stack Developer ( <apan id="experience">
+                           </apan>+ years )
+                        </p>
+                        <div class="d-print-none" data-aos="fade-left" data-aos-delay="200">
+                           <a
+                              class="btn btn-light text-dark shadow-sm mt-1 me-1"
+                              href="assets/resume - vinay vivekananda - full stack developer.pdf" target="_blank"
+                              download>Download CV</a>
+                           <a
+                              class="btn btn-light text-dark shadow-sm mt-1 me-1"
+                              href="https://docs.google.com/document/d/1BMGSz1jjCk7qfe-9d7aHRUjt85Gchs9BNIxICLG1xyQ/edit?usp=sharing"
+                              target="_blank">View CV</a>
+                           <a class="btn btn-success shadow-sm mt-1"
+                              href="#contact">Hire Me</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="about-section pt-4 px-3 px-lg-4 mt-1">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <h2 class="h3 mb-3">About Me</h2>
+                        <p>Hello! I’m Vinay Vivekananda. I am passionate about programming. I am a
+                           skilled Full-Stack Developer with a demonstrated history of working in the computer software
+                           industry.
+                        </p>
+                     </div>
+                     <div class="col-md-5 offset-md-1">
+                        <div class="row mt-2">
+                           <div class="col-sm-4">
+                              <div class="pb-1">Age</div>
+                           </div>
+                           <div class="col-sm-8">
+                              <div id="age" class="pb-1 text-secondary"></div>
+                           </div>
+                           <div class="col-sm-4">
+                              <div class="pb-1">Email</div>
+                           </div>
+                           <div class="col-sm-8">
+                              <div class="pb-1 text-secondary">vinayvivekananda@gmail.com</div>
+                           </div>
+                           <div class="col-sm-4">
+                              <div class="pb-1">Phone</div>
+                           </div>
+                           <div class="col-sm-8">
+                              <div class="pb-1 text-secondary">+359 8871 627 01</div>
+                           </div>
+                           <div class="col-sm-4">
+                              <div class="pb-1">Address</div>
+                           </div>
+                           <div class="col-sm-8">
+                              <div class="pb-1 text-secondary">Ul. Chernomen 3, Sofia Center, Sofia, Bulgaria</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <hr class="d-print-none" />
+               <div class="skills-section px-3 px-lg-4">
+                  <h2 class="h3 mb-3">Professional Skills</h2>
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="mb-2"><span>Angular</span>
+                           <div class="progress my-1">
+                              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right"
+                                 data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 90%"
+                                 aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                        </div>
+                        <div class="mb-2"><span>JAVA (Spring)</span>
+                           <div class="progress my-1">
+                              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right"
+                                 data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 80%"
+                                 aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                        </div>
+                        <div class="mb-2"><span>Typescript/Javacript</span>
+                           <div class="progress my-1">
+                              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right"
+                                 data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 70%"
+                                 aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="mb-2"><span>SQL</span>
+                           <div class="progress my-1">
+                              <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right"
+                                 data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 60%"
+                                 aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                        </div>
+                        <div class="mb-2"><span>Docker</span>
+                           <div class="progress my-1">
+                              <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right"
+                                 data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 65%"
+                                 aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                        </div>
+                        <div class="mb-2"><span>Kubernetes</span>
+                           <div class="progress my-1">
+                              <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right"
+                                 data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 70%"
+                                 aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+               </div>
+               <hr class="d-print-none" />
+               <div class="px-3 px-lg-4">
+                  <h2 class="h3 mb-2">Achievements</h2>
+                  <di class="card">
+                     <div class="card-body">
+                        <ul>
+                           <li>
+                              <p class="mb-0">
+                                 <strong>Patents</strong>
+                              </p>
+                              <p>
+                              <ul>
+                                 <li>Methods and Apparatus to Manage Application Updates in Cloud Environment
+                                    <div class="text-muted text-small mb-2">
+                                       (Issued -
+                                       <a href="https://patents.google.com/patent/US20160246586A1"
+                                          target="_blank">US20160246586A1</a> - Oct - 2017).
+                                    </div>
+
+                                 </li>
+                                 <li>Upgrading Customized Configuration Files
+                                    <div class="text-muted text-small mb-2">
+                                       (Issued - <a
+                                          href="https://patents.google.com/patent/US20180088971A1/"
+                                          target="_blank">US20180088971A1</a> - Jun - 2019).
+                                    </div>
+
+                                 </li>
+                                 <li>Applications discovery based on file system directories
+
+                                    <div class="text-muted text-small mb-2">
+                                       (Pending - <a
+                                          href="https://patents.google.com/patent/US20200183719A1/"
+                                          target="_blank">US20200183719A1</a>
+                                       - Feb - 2019)
+                                    </div>
+
+                                 </li>
+                              </ul>
+                              </p>
+                           </li>
+                           <li>
+                              <p class="mb-0">
+                                 Runner Up Borathon - May - 2018 ( Flow Based Programming For IoT - UI tool for IOT
+                                 Architects to design the IOT Solution )
+                              </p>
+                           </li>
+                        </ul>
+                     </div>
+                  </di>
+               </div>
+               <hr class="d-print-none" />
+               <div class="work-experience-section px-3 px-lg-4">
+                  <h2 class="h3 mb-4">Work Experience</h2>
+                  <div class="timeline">
+                     <div class="timeline-card timeline-card-primary card shadow-sm">
+                        <div class="card-body">
+                           <div class="h5 mb-1">Full-Stack Developer <span class="text-muted h6">at VMware</span>
+                           </div>
+                           <div class="text-muted text-small mb-2">March, 2015 - Present</div>
+                           <div>
+                              <h6>vSphere Web Client</h6>
+                              <ul>
+                                 <li>
+                                    <p class="mb-0">
+                                       Currently part of the vSphere Web Client platform development team, responsible
+                                       for
+                                       providing generic API and
+                                       components for different domain teams to enable them to be able to develop
+                                       functionalities
+                                       faster and provide
+                                       consistent UX.
+                                    </p>
+                                    <p>
+                                       <strong>Languages & Tools:</strong> Angular 10, Typescript, Clarity Design
+                                       System, Java
+                                       (Spring
+                                       Boot)
+                                    </p>
+                                 </li>
+                              </ul>
+
+                           </div>
+                           <hr />
+                           <div>
+                              <h6>Amazon RDS on VMware</h6>
+                              <ul>
+                                 <li>
+                                    <p class="mb-0">
+                                       Responsible for building RDS monitoring capability by providing functionalities
+                                       similar
+                                       to AWS cloudwatch (UI and API)
+                                       using vRealize Operations Manager as a platform.
+                                    </p>
+                                    <p> <strong>Languages & Tools:</strong> Java (Spring Boot), Angular, Typescript,
+                                       Clarity Design
+                                       System,
+                                       Docker</p>
+                                 </li>
+                              </ul>
+                           </div>
+                           <hr />
+                           <div>
+                              <h6>vRealize Operations Manager (vROps)</h6>
+                              <ul>
+                                 <li>
+                                    <p class="mb-0">
+                                       Designed and Implemented vROps Tenant App for vCD (Multi Tenant UI for vCD
+                                       Service
+                                       Providers using vROps as
+                                       Platform).
+                                    </p>
+                                    <p>
+                                       <strong>Languages & Tools:</strong> Java (Spring Boot), Angular, Typescript,
+                                       Clarity Design
+                                       System,
+                                       Docker
+                                    </p>
+                                 </li>
+
+                                 <li>
+                                    <p class="mb-0">
+                                       Developed and delivered several upgrade patches for vRealize Operations Manager
+                                       (vRops) product
+                                    </p>
+                                    <p> <strong>Languages & Tools:</strong> Python</p>
+                                 </li>
+                                 <li>
+                                    <p class="mb-0">
+                                       Implemented vRops Management Pack for vSphere Integrated Openstack (VIO), which
+                                       can monitor the health and
+                                       inventory of Openstack using vRops. Also responsible for developing and
+                                       maintaining vRops Management packs of
+                                       different enterprise products like vCloud Director, NSX, AWS, Azure etc.
+
+                                    </p>
+                                    <p> <strong>Languages & Tools:</strong> Java, Python</p>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="timeline-card timeline-card-primary card shadow-sm">
+                        <div class="card-body">
+                           <div class="h5 mb-1">Sofware Engineer II <span class="text-muted h6">at cisco</span>
+                           </div>
+                           <div class="text-muted text-small mb-2">August, 2014 - March, 2015</div>
+                           <div>
+                              <ul>
+                                 <li>
+                                    <p class="mb-0">
+                                       Responsible for Scripting, Testing and Execution of Network Automation Tests on
+                                       Nexus 7000 series switches.
+                                    </p>
+                                    <p>
+                                       <strong>Languages & Tools:</strong> TCL
+                                    </p>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="timeline-card timeline-card-primary card shadow-sm">
+                        <div class="card-body">
+                           <div class="h5 mb-1">MTS-Intern <span class="text-muted h6">at VMware</span>
+                           </div>
+                           <div class="text-muted text-small mb-2">July, 2013 - July, 2014</div>
+                           <div>
+                              <ul>
+                                 <li>
+                                    <p class="mb-0">
+                                       Designed and Implemented centralized and highly scalable solution to orchestrate
+                                       (Install/Patch/Purge) Software
+                                       Components in cloud virtual machines. ( Patent Granted - <a
+                                          href="https://patents.google.com/patent/US20160246586A1"
+                                          target="_blank">US20160246586A1</a> ).
+                                    </p>
+                                    <p>
+                                       <strong>Languages & Tools:</strong> Python, RabbitMQ, Shell Script.
+                                    </p>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="timeline-card timeline-card-primary card shadow-sm">
+                        <div class="card-body">
+                           <div class="h5 mb-1">Systems Engineer <span class="text-muted h6">at SIEMENS</span>
+                           </div>
+                           <div class="text-muted text-small mb-2">July, 2011 - August, 2012</div>
+                           <div>
+                              <ul>
+                                 <li>
+                                    <p class="mb-0">
+                                       Part of internal Tools team, responsible for developing web based internal tools
+                                       for maintaining Employee database
+                                       (Scepter), projects timesheet tracking tool for agile based projects
+                                       (Sprintster), Code changes tracking tool so that peers
+                                       can review (Revino) and a tools to track bugs in the projects (Bugster).
+                                    </p>
+                                    <p>
+                                       <strong>Languages & Tools:</strong> C#, ASP.NET, MS SQL, JAVASCRIPT, HTML, CSS.
+                                    </p>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <hr class="d-print-none" />
+               <div class="page-break"></div>
+               <div class="education-section px-3 px-lg-4 pb-4">
+                  <h2 class="h3 mb-4">Education</h2>
+                  <div class="timeline">
+                     <div class="timeline-card timeline-card-success card shadow-sm">
+                        <div class="card-body">
+                           <div class="h5 mb-1">Masters of Technology <span
+                                 class="text-muted h6">from
+                                 R V College of Engineering, Bengaluru</span></div>
+                           <div class="text-muted text-small mb-0">Information Technology</div>
+                           <div class="text-muted text-small mb-2">2012 - 2014</div>
+                           <div>Designed and Implemented centralized and highly scalable solution to orchestrate
+                              (Install/Patch/Purge) Software Components in cloud virtual machines. ( Patent Granted -
+                              <a href="https://patents.google.com/patent/US20160246586A1"
+                                 target="_blank">US20160246586A1</a> ).
+
+                           </div>
+                           <div>
+                              <storng>Tools:</storng> Python, RabbitMQ, Shell Script.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="timeline-card timeline-card-success card shadow-sm">
+                        <div class="card-body">
+                           <div class="h5 mb-1">Bachelor of Engineering <span class="text-muted h6">from SSIT, Tumakuru
+                              </span></div>
+                           <div class="text-muted text-small mb-0">Electronics and Communications Engineering</div>
+                           <div class="text-muted text-small mb-2">2012 - 2014</div>
+                           <div>Autonomous Amphibious Robot for Surveillance using FPGA”. This vehicle will find a place
+                              in the defense sector where there is a need for continuous monitoring especially in areas
+                              of insurgency from the sea.
+                           </div>
+                           <div><strong>Tools:</strong>FPGA, Verilog</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <hr class="d-print-none" />
+               <div class="contant-section px-3 px-lg-4 pb-4" id="contact">
+                  <h2 class="h3 text mb-3">Contact</h2>
+                  <div class="row">
+                     <div class="col-md-7 d-print-none">
+                        <div class="my-2">
+                           <form action="https://formspree.io/f/mknkzqdl"
+                              method="POST">
+                              <div class="row">
+                                 <div class="col-6">
+                                    <input class="form-control" type="text" id="name" name="name"
+                                       placeholder="Your Name" required>
+                                 </div>
+                                 <div class="col-6">
+                                    <input class="form-control" type="email" id="email" name="_replyto"
+                                       placeholder="Your E-mail" required>
+                                 </div>
+                              </div>
+                              <div class="form-group my-2">
+                                 <textarea class="form-control" style="resize: none;" id="message" name="message"
+                                    rows="4" placeholder="Your Message" required></textarea>
+                              </div>
+                              <button class="btn btn-primary mt-2" type="submit">Send</button>
+                           </form>
+                        </div>
+                     </div>
+                     <div class="col">
+                        <div class="mt-2">
+                           <h3 class="h6">Address</h3>
+                           <div class="pb-2 text-secondary">ul. Chernomen 3, Sofia Center, Sofia, Bulgaria</div>
+                           <h3 class="h6">Phone</h3>
+                           <div class="pb-2 text-secondary">+359 8871 627 01</div>
+                           <h3 class="h6">Email</h3>
+                           <div class="pb-2 text-secondary">
+                              vinayvivekananda@gmail.com
+                           </div>
+                        </div>
+                        <div class="col d-none d-print-block">
+                           <div class="mt-2">
+                              <div>
+
+                                 <div class="mb-2">
+                                    <div class="text-dark"><i
+                                          class="fab fa-linkedin mr-1"></i><span>https://www.linkedin.com/in/vinayvivekananda</span>
+                                    </div>
+                                 </div>
+                                 <div class="mb-2">
+                                    <div class="text-dark"><i
+                                          class="fab fa-github mr-1"></i><span>https://github.com/vinayvivekananda</span>
+                                    </div>
+                                 </div>
+                                 <div class="mb-2">
+                                    <div class="text-dark"><i
+                                          class="fab fa-gitlab mr-1"></i><span>https://gitlab.com/vinayvivekananda</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <footer class="pt-4 pb-4 text-muted text-center d-print-none">
+            <div class="container">
+               <div class="my-3">
+                  <div class="h4">Vinay Vivekananda</div>
+                  <div class="footer-nav">
+                     <nav role="navigation">
+                        <ul class="nav justify-content-center">
+
+                           <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/vinayvivekananda"
+                                 target="_blank"
+                                 title="LinkedIn"><i class="fab fa-linkedin"></i><span
+                                    class="menu-title sr-only">LinkedIn</span></a>
+                           </li>
+
+                           <li class="nav-item"><a class="nav-link" href="https://github.com/vinayvivekananda"
+                                 target="_blank"
+                                 title="Github"><i class="fab fa-github"></i><span
+                                    class="menu-title sr-only">Github</span></a>
+                           </li>
+                           <li class="nav-item"><a class="nav-link" href="https://gitlab.com/vinayvivekananda"
+                                 target="_blank"
+                                 title="Gitlab"><i class="fab fa-gitlab"></i><span
+                                    class="menu-title sr-only">Gitlab</span></a>
+                           </li>
+                        </ul>
+                     </nav>
+                  </div>
+               </div>
+               <div class="text-small">
+                  <div class="mb-1">&copy; Vinay Vivekananda. All rights reserved.</div>
+                  <div>Design - <a href="https://templateflip.com/" target="_blank">TemplateFlip</a></div>
+               </div>
+            </div>
+         </footer>
+         <script src="scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
+         <script src="scripts/aos.js?ver=1.2.0"></script>
+         <script src="scripts/main.js?ver=1.2.0"></script>
    </body>
 
 </html>
